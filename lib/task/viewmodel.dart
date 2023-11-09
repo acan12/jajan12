@@ -21,7 +21,8 @@ class TaskViewModel extends EventViewModel {
   void createTask(String title, String description) {
     notify(LoadingEvent(isLoading: true));
 
-    notify(TaskCreatedEvent());
+
+    notify(LoadingEvent(isLoading: false));
   }
 }
 
