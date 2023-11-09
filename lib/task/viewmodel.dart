@@ -1,6 +1,4 @@
 import 'package:jajan12/mvvm/viewmodel.dart';
-
-import 'viewmodel.dart';
 import 'repository.dart';
 
 import '../mvvm/observer.dart';
